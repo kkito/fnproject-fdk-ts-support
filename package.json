@@ -22,7 +22,7 @@
     "format": "prettier --write \"{src,tests}/**/*.ts\" --single-quote --no-semi",
     "lint": "tslint --force --format verbose \"{src,tests}/**/*.ts\"",
     "prepublishOnly": "npm run build",
-    "prebuild": "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
+    "prebuild": "npm run clean && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty",
     "test": "jest",
     "coverage": "jest --coverage",
