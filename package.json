@@ -1,5 +1,5 @@
 {
-  "name": "@kkito/fnproject-ts-support",
+  "name": "@kkito/fnproject-fdk-ts-support",
   "version": "0.0.1",
   "description": "",
   "license": "MIT",
@@ -9,8 +9,12 @@
     "email": "kkitokkito@126.com",
     "url": "kkito.cn"
   },
-  "keywords": [""],
-  "files": ["lib"],
+  "keywords": [
+    ""
+  ],
+  "files": [
+    "lib"
+  ],
   "main": "lib/index",
   "types": "lib/index",
   "scripts": {
@@ -25,7 +29,9 @@
     "watch": "npm run build -- --watch",
     "watch:test": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@fnproject/fdk": "^0.0.18"
+  },
   "devDependencies": {
     "@types/jest": "^25.1.0",
     "@types/node": "^13.5.0",
@@ -57,7 +63,9 @@
     ]
   },
   "jest": {
-    "testMatch": ["<rootDir>/tests/**/*.ts"],
+    "testMatch": [
+      "<rootDir>/tests/**/*.ts"
+    ],
     "preset": "ts-jest"
   }
 }

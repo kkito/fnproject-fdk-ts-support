@@ -272,6 +272,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@fnproject/fdk@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.npm.taobao.org/@fnproject/fdk/download/@fnproject/fdk-0.0.18.tgz#07f2462677dd329751f6e8dc7a30be847d34a24c"
+  integrity sha1-B/JGJnfdMpdR9ujcejC+hH00okw=
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/@istanbuljs/load-nyc-config/download/@istanbuljs/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
